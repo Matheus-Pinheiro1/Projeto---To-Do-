@@ -1,2 +1,4 @@
 <h1><%= @project.name %></h1>
 <p>Projeto em construção...</p>
+
+<%= button_to "Excluir Projeto", project_path(@project), method: :delete %>
